@@ -1,16 +1,17 @@
-<center><p align="center"><img src="media/v1-homehost-logo-1.PNG" alt="homehost logo"></p></center>
-<center>
-	[![contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ridhwaans/homehost/issues)
-	[![release](https://img.shields.io/github/release/ridhwaans/homehost.svg)](https://github.com/ridhwaans/homehost/releases/)
-	[![tag](https://img.shields.io/github/tag/ridhwaans/homehost.svg)](https://github.com/ridhwaans/homehost/tags/)
-	[![commits-since](https://img.shields.io/github/commits-since/ridhwaans/homehost/v1.0.0-BETA.svg)](https://gitHub.com/ridhwaans/homehost/commit/)
-	[![license](https://img.shields.io/github/license/ridhwaans/homehost.svg)](https://github.com/ridhwaans/homehost/blob/master/LICENSE)
-</center>
+<p style="text-align: center;align="center;">
+<img src="media/v1-homehost-logo-1.PNG" alt="homehost logo">
 
-<center>
-  <h3>`homehost` is made for streaming your media collection over the home network</h3>
-	<h4>Features: 🎥 Movies, 🎵 Music, 📺 TV Shows, 📚 Books, 📒 Comics, 🎙️ Podcasts</h4>
-</center>
+<p align="center">
+	<a href="https://github.com/ridhwaans/homehost/issues"><img src="https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat" alt="contributions"></a>
+	<a href="https://github.com/ridhwaans/homehost/releases/"><img src="https://img.shields.io/github/release/ridhwaans/homehost.svg" alt="release"></a>
+	<a href="https://github.com/ridhwaans/homehost/tags/"><img src="https://img.shields.io/github/tag/ridhwaans/homehost.svg" alt="tag"></a>
+	<a href="https://gitHub.com/ridhwaans/homehost/commit/"><img src="https://img.shields.io/github/commits-since/ridhwaans/homehost/v1.0.0-BETA.svg" alt="commits-since"></a>
+	<a href="https://github.com/ridhwaans/homehost/blob/master/LICENSE"><img src="https://img.shields.io/github/license/ridhwaans/homehost.svg" alt="license"></a>
+</p>
+
+<h3 align="center"> homehost is made for streaming your media collection over the home network</h3>
+<h4 align="center"> Features: 🎥 Movies, 🎵 Music, 📺 TV Shows, 📚 Books, 📒 Comics, 🎙️ Podcasts </h4>
+
 
 # 🎥 Movies
 ![](media/v1-movies-1.PNG)
