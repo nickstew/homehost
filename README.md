@@ -1,21 +1,23 @@
-<center><p align="center"><img src="media/v1-homehost-logo-1.png" alt="homehost logo"></p></center>
+<center><p align="center"><img src="media/v1-homehost-logo-1.PNG" alt="homehost logo"></p></center>
 <center>
 	[![contributions](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](https://github.com/ridhwaans/homehost/issues)
-	[![release](https://img.shields.io/github/release/ridhwaans/homehost.svg)](https://gitHub.com/ridhwaans/homehost/releases/)
-	[![tag](https://img.shields.io/github/tag/ridhwaans/homehost.svg)](https://gitHub.com/ridhwaans/homehost/tags/)
-	[![commits-since](https://img.shields.io/github/commits-since/ridhwaans/homehost/v1.0.0-beta.svg)](https://gitHub.com/ridhwaans/homehost/commit/)
+	[![release](https://img.shields.io/github/release/ridhwaans/homehost.svg)](https://github.com/ridhwaans/homehost/releases/)
+	[![tag](https://img.shields.io/github/tag/ridhwaans/homehost.svg)](https://github.com/ridhwaans/homehost/tags/)
+	[![commits-since](https://img.shields.io/github/commits-since/ridhwaans/homehost/v1.0.0-BETA.svg)](https://gitHub.com/ridhwaans/homehost/commit/)
 	[![license](https://img.shields.io/github/license/ridhwaans/homehost.svg)](https://github.com/ridhwaans/homehost/blob/master/LICENSE)
 </center>
 
-<center><h3>`homehost` is made for streaming your media collection over the home network</h3>
-	<h4>Features: 🎥 Movies, 🎵 Music, 📺 TV Shows, 📚 Books, 📒 Comics, 🎙️ Podcasts</h4></center>
+<center>
+  <h3>`homehost` is made for streaming your media collection over the home network</h3>
+	<h4>Features: 🎥 Movies, 🎵 Music, 📺 TV Shows, 📚 Books, 📒 Comics, 🎙️ Podcasts</h4>
+</center>
 
 # 🎥 Movies
-![](media/v1-movies-1.png)
+![](media/v1-movies-1.PNG)
 ## Demo
 ![movies-gif](media/v1-movies-demo-min-1.gif)
 # 🎵 Music
-![](media/v1-music-1.png)
+![](media/v1-music-1.PNG)
 ## Demo
 ![music-gif](media/v1-music-demo-min-1.gif)
 
@@ -54,9 +56,9 @@ Your media must appear in the path set by `config.yml`
 
 Server requires `<media>.json` file data at startup. Initial json state should be empty
 ```json
-./movies.json or ./music.json
+./movies.json & ./music.json
 {
-  "movies" or "music": []
+  "movies": [], "music": []
 }
 ```
 Start homehost by running `yarn homehost` from the base directory. Server should open at `http://localhost:5000/`  
