@@ -1,4 +1,5 @@
 var _ = require('underscore');
+var figlet = require('figlet');
 var fs = require('fs');
 var node_dir = require('node-dir');
 var bluebird = require('bluebird');
@@ -45,7 +46,6 @@ app.get('/api/music/albums/:id', function(req, res) {
   res.json(album);
 });
 
-// test http://localhost:5000/music/albums/5zUm6nApm20NjtX913O6Nz/tracks/0g9IOJwdElaCZEvcqGRP4b
 app.get('/music/albums/:album_id/tracks/:track_id', function(req, res) {
   var album = _.find(musicData.music, {id: req.params.album_id}); // Get albums
   var track_fs_path = _.where(album.tracks.items, {id: req.params.track_id}); // Get track
@@ -194,5 +194,13 @@ var generateMusicMetaData = function() {
 
   });
 };
+
+console.log(figlet.textSync('homehost', 
+  {
+    font: 'Larry 3D',
+    horizontalLayout: 'default',
+    verticalLayout: 'default'
+  }
+));
 
 app.listen(port, () => console.log(`Listening on port ${port}`));
